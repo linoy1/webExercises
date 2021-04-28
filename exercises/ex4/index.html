@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linoy Siman Tov</title>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>Contact:</h1>
+    </header>
+    <section id="contact_form">
+
+        <div class="fish" id="fish"></div>
+        <div class="fish" id="fish2"></div>
+        <form name="form" action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="GET">
+
+            <label class="form-group" for="fullname">Full Name:
+		<input  pattern="[a-zA-z]+\s[a-zA-z]+" title="The fullname must include Capital letter and last name"  class="form-control"  type="text" id="fullname" name="fullName" >
+		</label>
+            <br>
+
+
+            <label class="form-group" for="password">Password:
+			<input class="form-control" type="text" id="password" name="pass" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+			</label>
+            <br>
+
+            <label class="form-group" for="email">Email:
+			<input class="form-control" type="text" id="email" name="mail" onkeydown="ValidateEmail()">
+			</label>
+            <br>
+
+            <label class="form-group" for="url">Website:
+				<input  class="form-control" type="url" id="url" name="website">
+				</label>
+            <br>
+            <label class="form-group" for="phone">Phone:
+			<input pattern="[0-9]{9,10}" class="form-control" type="tel" id="phone" name="phone">
+			</label>
+            <br>
+
+
+            <label class="form-group" for="number">Coffee:
+				<input class="form-control" type="number" id="number" name="coffee">
+				</label>
+            <br>
+
+
+            <label class="form-group" for="range">Temperature:
+					<input  type="range" id="range" name="temper">
+					</label>
+            <br>
+
+
+            <label class="form-group" for="address">Address:
+				<textarea class="form-control" name="address" id="address" cols="30" rows="3"></textarea>            
+			</label>
+            <br>
+
+            <span>interests:</span> <br>
+
+            <label class="form-check">Interest 1:<input class="form-check-input" type="checkbox" name="interests[]"></label><br>
+            <label class="form-check">Interest 2:<input class="form-check-input" type="checkbox" name="interests[]"></label><br>
+            <label class="form-check">Interest 3:<input class="form-check-input" type="checkbox" name="interests[]"></label><br>
+            <label class="form-check">Interest 4:<input class="form-check-input" type="checkbox" name="interests[]"></label><br>
+
+            <span>Gender:</span>
+            <label class="form-check">Male
+		<input class="form-check-input" type="radio" name="gender" value="male" checked>
+		</label>
+            <label class="form-check">female
+		<input class="form-check-input" type="radio" name="gender" value="female" >
+		</label><br>
+
+
+            <span>Age:</span>
+            <label>
+		<select class="form-select" aria-label="Default select example" name="age"  required >
+		<option value="18">18</option>
+		<option value="19">19</option>
+		<option value="20" selected>20</option>
+		<option value="21">21</option>
+		<option value="22">22</option>
+		<option value="23">23</option>
+		<option value="24">24</option>
+	</select>
+        </label>
+            <br>
+            <input type="submit" value="Send form" class="btn btn-primary" onclick="return checkEmail();   checkboxesValidate();">
+
+            <svg width="107px" height="77px" viewBox="0 0 107 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="fish1"></svg>
+
+            <div class="bubbles bubble-1"></div>
+            <div class="bubbles bubble-5"></div>
+            <div class="bubbles bubble-2"></div>
+            <div class="bubbles bubble-6"></div>
+            <div class="bubbles bubble-3"></div>
+            <div class="bubbles bubble-7"></div>
+            <div class="bubbles bubble-4"></div>
+            <div class="bubbles bubble-8"></div>
+
+        </form>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 191 42" width="191" height="42">
+	<title>golf</title>
+	<defs>
+		<image  width="180" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAApCAMAAACr6/OdAAAAAXNSR0IB2cksfwAAADNQTFRFAAAAmNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0mNX0MsJnzAAAABF0Uk5TAEDfgBCP/+8wr89gIL+fcFDZNuMyAAABS0lEQVR4nNWXixKCIBBFA3mD6P9/bWpNpQGCLbCdD6gzO5e76+0GD6FDhV+tCuNCCNLbogxCF2chVW+PApgWDwzrrZKNlUL8mbUbxQfG9fbJYZBixx/k+vEA99a2t1Qa5r+UVzzmYE8y6LwEG21EiIkor+BcjpFkoB52NBlvOLJkBzojAKoa2W+TFCOWC2o757IZUSzIjDDv8d2156wwo9Im2WE+anfLtjtp5iR9nuTZMjmFNi9AdjxAryCHluEGUd7QcytnC6W8QpuM215puSTVxw2vvCJ5vRuQ1VHeMFOVmMA9vwjaQh+v1ZXhvX/afmV4IG+iz/8LEoB529QHaz3vH96laxLlIGa61oOkXZSDUF66d9xUr5UL0AUFPjd+fCnyBq58tyTHGNMJVxxFLL6RPlIpM1bjJ/Qo7qxGl4oQL3FlPe4RH1jE1R26g0n7chK8CwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="6" y="1" />
+</svg>
